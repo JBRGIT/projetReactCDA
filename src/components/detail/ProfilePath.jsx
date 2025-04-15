@@ -1,4 +1,6 @@
 import { useState } from "react";
+import placeholder from "../../assets/img-placeholder.avif"
+
 
 function ProfilePath({ cast }) {
   const [img, setImg] = useState(
@@ -11,7 +13,7 @@ function ProfilePath({ cast }) {
         src={img}
         alt="img"
         className="rounded-full object-cover w-[80%]  objet-cover "
-        onError={() => setImg("../src/assets/img-Placeholder.avif")}
+        onError={() => setImg(placeholder)}
       />
       <div>
         <h3 className=" text-white text-[10px]  sm:text-[14px] font-bold">{cast.original_name}</h3>
