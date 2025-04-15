@@ -6,7 +6,7 @@ import BackDetail from "./../components/detail/BackDetail";
 import { useState } from "react";
 import { useEffect } from "react";
 import apiMovie from "../api/apiMovie";
-import SimilarDetail from "../components/detail/similarDetail";
+import SimilarDetail from "../components/detail/SimilarDetail";
 
 function DetailView() {
   const { id } = useParams();
