@@ -1,5 +1,5 @@
 import { useState } from "react";
-import placeholder from "../../assets/img-placeholder.avif"
+import placeholder from "../../assets/img-Placeholder.avif"
 
 
 function ProfilePath({ cast }) {
